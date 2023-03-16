@@ -1,0 +1,7 @@
+*.venv
+*.env
+*venv
+*.idea/
+*.csv
+db.sqlite3
+.venv/
