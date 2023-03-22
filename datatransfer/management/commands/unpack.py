@@ -10,7 +10,7 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
 
-        file = "purchase_data.csv"
+        file = "csv_files/purchase_data.csv"
         df = pd.read_csv(file)
 
         url = "postgresql://postgres:ElonMusk@localhost:5433/data_api"
